@@ -5,13 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9zkxFy7ubg_FFBkFz8Hj-1" value="Juego" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="274" y="90" width="160" height="190" as="geometry" />
+          <mxGeometry x="274" y="90" width="160" height="220" as="geometry" />
         </mxCell>
         <mxCell id="9zkxFy7ubg_FFBkFz8Hj-2" value="- jugador[] fila1&lt;div&gt;- jugador[] fila2&lt;/div&gt;&lt;div&gt;- jugador[] fila3&lt;/div&gt;&lt;div&gt;- jugador[] lista_jugadores&lt;br&gt;&lt;div&gt;- int turnos&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9zkxFy7ubg_FFBkFz8Hj-1">
           <mxGeometry y="30" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9zkxFy7ubg_FFBkFz8Hj-4" value="+ Mostrar_Tablero()&lt;div&gt;+ Mostrar Ganador()&lt;/div&gt;&lt;div&gt;+ Mostrar Empate()&lt;/div&gt;&lt;div&gt;+ Asignar Signo()&lt;/div&gt;&lt;div&gt;+ Estado_de_mapa()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9zkxFy7ubg_FFBkFz8Hj-1">
-          <mxGeometry y="110" width="160" height="80" as="geometry" />
+        <mxCell id="9zkxFy7ubg_FFBkFz8Hj-4" value="+ Mostrar_Tablero()&lt;div&gt;+ Asignar Signo()&lt;/div&gt;&lt;div&gt;+ agregar_jugador()&lt;/div&gt;&lt;div&gt;+aumentar truno&lt;/div&gt;&lt;div&gt;+estado&lt;/div&gt;&lt;div&gt;comprobar&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9zkxFy7ubg_FFBkFz8Hj-1">
+          <mxGeometry y="110" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9zkxFy7ubg_FFBkFz8Hj-5" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="9zkxFy7ubg_FFBkFz8Hj-2" target="9zkxFy7ubg_FFBkFz8Hj-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -25,8 +25,23 @@
         <mxCell id="9zkxFy7ubg_FFBkFz8Hj-8" value="- string signo&lt;div&gt;- int movimientos&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9zkxFy7ubg_FFBkFz8Hj-7">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9zkxFy7ubg_FFBkFz8Hj-10" value="+ Elegir signo()&lt;div&gt;+ elegir ubicacion()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9zkxFy7ubg_FFBkFz8Hj-7">
+        <mxCell id="9zkxFy7ubg_FFBkFz8Hj-10" value="+ Elegir ubicacion&lt;div&gt;+ get signo&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9zkxFy7ubg_FFBkFz8Hj-7">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9zkxFy7ubg_FFBkFz8Hj-13" value="I.A" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="90" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9zkxFy7ubg_FFBkFz8Hj-14" value="- signo&lt;div&gt;- movimientos&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9zkxFy7ubg_FFBkFz8Hj-13">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9zkxFy7ubg_FFBkFz8Hj-16" value="+elegir ubicacion&lt;div&gt;+ get signo&lt;/div&gt;&lt;div&gt;+ elegir aleatoriamente&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9zkxFy7ubg_FFBkFz8Hj-13">
+          <mxGeometry y="60" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9zkxFy7ubg_FFBkFz8Hj-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9zkxFy7ubg_FFBkFz8Hj-14" target="9zkxFy7ubg_FFBkFz8Hj-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="180" as="sourcePoint" />
+            <mxPoint x="620" y="130" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
