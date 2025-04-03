@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Tres en Raya/1.0.0": {
+        "runtime": {
+          "Tres en Raya.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tres en Raya/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

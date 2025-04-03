@@ -1,0 +1,14 @@
+C:\Users\HP\OneDrive\Escritorio\Codigos-Tercer Semestre\Programacion II\Tres en Raya\obj\Debug\net8.0\Tres en Raya.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Escritorio\Codigos-Tercer Semestre\Programacion II\Tres en Raya\obj\Debug\net8.0\Tres en Raya.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Escritorio\Codigos-Tercer Semestre\Programacion II\Tres en Raya\obj\Debug\net8.0\Tres en Raya.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Escritorio\Codigos-Tercer Semestre\Programacion II\Tres en Raya\obj\Debug\net8.0\Tres en Raya.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Escritorio\Codigos-Tercer Semestre\Programacion II\Tres en Raya\bin\Debug\net8.0\Tres en Raya.exe
+C:\Users\HP\OneDrive\Escritorio\Codigos-Tercer Semestre\Programacion II\Tres en Raya\bin\Debug\net8.0\Tres en Raya.deps.json
+C:\Users\HP\OneDrive\Escritorio\Codigos-Tercer Semestre\Programacion II\Tres en Raya\bin\Debug\net8.0\Tres en Raya.runtimeconfig.json
+C:\Users\HP\OneDrive\Escritorio\Codigos-Tercer Semestre\Programacion II\Tres en Raya\bin\Debug\net8.0\Tres en Raya.dll
+C:\Users\HP\OneDrive\Escritorio\Codigos-Tercer Semestre\Programacion II\Tres en Raya\bin\Debug\net8.0\Tres en Raya.pdb
+C:\Users\HP\OneDrive\Escritorio\Codigos-Tercer Semestre\Programacion II\Tres en Raya\obj\Debug\net8.0\Tres en Raya.dll
+C:\Users\HP\OneDrive\Escritorio\Codigos-Tercer Semestre\Programacion II\Tres en Raya\obj\Debug\net8.0\refint\Tres en Raya.dll
+C:\Users\HP\OneDrive\Escritorio\Codigos-Tercer Semestre\Programacion II\Tres en Raya\obj\Debug\net8.0\Tres en Raya.pdb
+C:\Users\HP\OneDrive\Escritorio\Codigos-Tercer Semestre\Programacion II\Tres en Raya\obj\Debug\net8.0\Tres en Raya.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Escritorio\Codigos-Tercer Semestre\Programacion II\Tres en Raya\obj\Debug\net8.0\ref\Tres en Raya.dll
